@@ -1,0 +1,52 @@
+body,html{
+	background: url(rei_background.jpg)no-repeat center center fixed;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+background-size:cover;
+
+font-family: 'Krona One', 'Russo One', sans-serif;
+\
+}
+
+
+
+.frontpage{
+
+position:fixed;
+top:50%;
+left: 45%;
+
+}
+
+.frontpage h1{
+
+font-size: 50px;
+
+}
+
+.btn{
+
+	font-weight: 700;
+  text-transform: capitalize;
+  border-radius:50px;
+  font-family:'Krona One', 'Russo One', sans-serif;
+}
+
+.btn-lg{
+	padding:1em 1em;
+}
+
+
+.btn-primary{
+background-color:  black;
+border-color:white;
+border-width: 6px;
+
+}
+
+.btn-primary:hover{
+	background-color:black;
+	border-color: white;
+	border-width:8px;
+	cursor:pointer;
+}
